@@ -1,0 +1,118 @@
+table{
+    width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+    
+    
+}
+thead>tr>th:first-child{
+    background-color: #7987ac;
+    border-radius: 15px 0 0 0;
+    font-size:large;
+    width: 280px;
+}
+thead>tr>th:nth-child(2){
+    background-color: #4f628d
+}
+thead>tr>th:last-child{
+border-radius: 0 15px 0 0;
+background-color: #071539;
+}
+tbody>tr:nth-child(odd)>td{
+    background-color: #dbdbdb
+}
+thead>tr>th:nth-child(3){
+    background-color: #2f4173
+}
+thead>tr>th:nth-child(4){
+    background-color:#162954
+}
+th, td{
+    
+    height: 50px;
+ 
+}
+caption{
+    background-color: #7987ac;
+}
+.text300{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+}
+.text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+tr:nth-child(even)>td:nth-child(even){
+background-color:white ;
+
+}
+tr:nth-child(odd)>td:nth-child(even){
+    background-color: #e7e7e7;
+}
+tr:nth-child(even)>td:nth-child(odd){
+    background-color: #ececec;
+}
+tfoot>tr>td:nth-child(even){
+ background-color: #e7e7e7;
+}
+tfoot>tr>td:nth-child(odd){
+    background-color: #dbdbdb;
+    height: 80px;
+   }
+   tr>td+td{
+    text-align: center;
+   }
+   tr>td:nth-child(1){
+   padding-left: 40px;
+   }
+   button{
+    width: 110px;
+    height: 45px;
+    font-size:medium ;
+    opacity: 60%;
+   }
+   .text{
+    color: white;
+   }
+   .size{
+    color: white;
+   }
+   tr>th:nth-child(2)>p:nth-child(2){
+    font-size:30px;
+   }
+   tr>th:nth-child(3)>p:nth-child(2){
+    font-size:30px ;
+   }
+   tr>th:nth-child(4)>p:nth-child(2){
+    font-size: 30px;
+   }
+   tr>th:nth-child(5)>p:nth-child(2){
+    font-size: 30px;
+   }
+   tr>th:nth-child(2)>p:nth-child(1){
+    font-size: 25px;
+   }
+   tr>th:nth-child(3)>p:nth-child(1){
+    font-size: 25px;
+   }
+   tr>th:nth-child(4)>p:nth-child(1){
+    font-size: 25px;
+   }
+   tr>th:nth-child(5)>p:nth-child(1){
+    font-size: 25px;
+   }
+   tr>th:nth-child(2)>p:nth-child(3){
+    font-size: 25px;
+   }
+   tr>th:nth-child(3)>p:nth-child(3){
+    font-size: 25px;
+   }
+   tr>th:nth-child(4)>p:nth-child(3){
+    font-size: 25px;
+   }
+   tr>th:nth-child(5)>p:nth-child(3){
+    font-size: 25px;
+   }
+  
